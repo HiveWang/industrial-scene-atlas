@@ -4,7 +4,9 @@
 
 ## 本地运行
 
-直接打开 `index.html`，或运行 `python3 -m http.server 8000` 后访问 http://localhost:8000。
+直接打开 `index.html`，或运行 `python3 -m http.server 8000` 后访问 `http://localhost:8000`。
+
+在线访问：https://hivewang.github.io/industrial-scene-atlas/
 
 ## GitHub Pages
 
@@ -15,7 +17,7 @@
 - `data.js`：场景条目与分类。
 - `editorial.js`：任务族说明与工序步骤。
 - `app.js`：交互和候选原子动作规则。
-- `media.js`、``：实拍图片与视频。
+- `media.js`：素材索引；同目录的图片与视频为实拍素材。
 - `index.html`、`style.css`：页面结构与视觉样式。
 
 原子动作由任务文字推导，属于候选参考，并非逐帧人工标注。
